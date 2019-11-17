@@ -10,5 +10,9 @@ public class UserDaoTest {
 	public void insertUser() {
 		userDao.insertUser();
 	}
+	@Test
+	public void updateUser() {
+		userDao.updateUser();
+	}
 	
 }

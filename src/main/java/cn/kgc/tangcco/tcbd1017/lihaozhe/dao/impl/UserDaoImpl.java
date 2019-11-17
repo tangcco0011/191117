@@ -8,5 +8,10 @@ public class UserDaoImpl implements UserDao {
 	public void insertUser() {
 		System.out.println("持久层保持成功");
 	}
+
+	@Override
+	public void updateUser() {
+		System.out.println("持久层更新成功");
+	}
 	
 }
