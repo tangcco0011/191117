@@ -1,5 +1,13 @@
 package cn.kgc.tangcco.tcbd1017.lihaozhe.service;
 
-public class UserServiceTest {
+import org.junit.Test;
 
+import cn.kgc.tangcco.tcbd1017.lihaozhe.service.impl.UserServiceImpl;
+
+public class UserServiceTest {
+	private UserService userService = new UserServiceImpl();
+	@Test
+	public void saveUser() {
+		userService.saveUser();
+	}
 }
