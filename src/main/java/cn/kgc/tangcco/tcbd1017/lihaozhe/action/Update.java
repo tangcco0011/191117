@@ -11,26 +11,26 @@ import cn.kgc.tangcco.tcbd1017.lihaozhe.service.UserService;
 import cn.kgc.tangcco.tcbd1017.lihaozhe.service.impl.UserServiceImpl;
 
 /**
- * Servlet implementation class LoginHandler
+ * Servlet implementation class Update
  */
-@WebServlet("/login.action")
-public class LoginHandler extends HttpServlet {
-       
-	private static final long serialVersionUID = -7745510595361767547L;
+@WebServlet("/update.action")
+public class Update extends HttpServlet {
+	private static final long serialVersionUID = -1312579409645536276L;
 	private static UserService userService = new UserServiceImpl();
 
 	/**
      * @see HttpServlet#HttpServlet()
      */
-    public LoginHandler() {
+    public Update() {
         super();
+        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		userService.saveUser();
+		userService.updateUser();
 	}
 
 }
