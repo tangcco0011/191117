@@ -205,7 +205,7 @@
 				<version>2.2</version>
 				<configuration>
 					<port>8080</port>
-					<path>/javaeeDay09</path>
+					<path>/191117</path>
 					<uriEncoding>UTF-8</uriEncoding>
 					<!-- tomcat热部署 -->
 					<username>kgc</username>
@@ -221,7 +221,7 @@
 				<configuration>
 					<scanIntervalSeconds>5</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/javaeeDay09</contextPath>
+						<contextPath>/191117</contextPath>
 					</webApp>
 					<httpConnector>
 						<port>8080</port>
