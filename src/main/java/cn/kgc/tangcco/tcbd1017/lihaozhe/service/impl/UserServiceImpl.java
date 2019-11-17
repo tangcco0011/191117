@@ -12,5 +12,11 @@ public class UserServiceImpl implements UserService {
 		userDao.insertUser();
 		System.out.println("提交事务");
 	}
+	@Override
+	public void updateUser() {
+		System.out.println("开启事务");
+		userDao.updateUser();
+		System.out.println("提交事务");
+	}
 
 }

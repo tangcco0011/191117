@@ -10,4 +10,8 @@ public class UserServiceTest {
 	public void saveUser() {
 		userService.saveUser();
 	}
+	@Test
+	public void updateUser() {
+		userService.updateUser();
+	}
 }
